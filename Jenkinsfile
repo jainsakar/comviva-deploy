@@ -10,7 +10,8 @@ pipeline {
             steps {
                 // sh 'docker --version'
                 echo 'Executing Compile'
-                mvn compile
+                // mvn compile
+                mvn clean
             }
         }
 
